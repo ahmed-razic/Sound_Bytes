@@ -9,11 +9,12 @@
     <color name="white">#FFFFFFFF</color>
 
 <!--  Colors for links TextViews  -->
-    <color name="category_home">#FFF7DA</color>
-    <color name="category_now_playing">#FD8E09</color>
-    <color name="category_detail_info">#379237</color>
-    <color name="category_karooke">#8800A0</color>
-    <color name="category_payment">#16AFCA</color>
-    <color name="category_radiofm">#2552C3</color>
-    <color name="category_search">#E47096</color>
+    <color name="category_home">#E9BD1E</color>
+    <color name="category_library">#F47836</color>
+    <color name="category_now_playing">#3E8022</color>
+    <color name="category_karooke">#3AB794</color>
+    <color name="category_radiofm">#1F308E</color>
+    <color name="category_detail_info">#5F1DAA</color>
+    <color name="category_buy_online">#96008F</color>
+    <color name="category_search">#FF0026</color>
 </resources>

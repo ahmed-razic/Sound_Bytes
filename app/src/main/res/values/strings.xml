@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Sound Bytes</string>
+
+    <!--  Names of link TextViews  -->
+    <string name="home">Home</string>
+    <string name="library">Music library</string>
+    <string name="now_playing">Now playing</string>
+    <string name="karooke">Karooke</string>
+    <string name="radiofm">Radio FM</string>
+    <string name="detail_info">Detail info</string>
+    <string name="buy_online">Buy online</string>
+    <string name="search">Search</string>
+
 </resources>
