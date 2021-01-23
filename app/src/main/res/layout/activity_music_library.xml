@@ -23,6 +23,14 @@
             android:padding="16dp" />
 
         <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/now_playing"
+            android:background="@color/category_now_playing"
+            style="@style/CategoryLinks" />
+
+        <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
