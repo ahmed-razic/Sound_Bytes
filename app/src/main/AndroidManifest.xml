@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SoundBytes">
-        <activity android:name=".KarookeActivity"></activity>
-        <activity android:name=".NowPlayingActivity" />
-        <activity android:name=".MusicLibraryActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SearchActivity" android:label="@string/search" />
+        <activity android:name=".BuyOnlineActivity" android:label="@string/search"/>
+        <activity android:name=".DetailInfoActivity" android:label="@string/detail_info"/>
+        <activity android:name=".RadiofmActivity" android:label="@string/radiofm"/>
+        <activity android:name=".KarookeActivity" android:label="@string/karooke"/>
+        <activity android:name=".NowPlayingActivity" android:label="@string/now_playing"/>
+        <activity android:name=".MusicLibraryActivity" android:label="@string/library"/>
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

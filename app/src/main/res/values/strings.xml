@@ -11,4 +11,13 @@
     <string name="buy_online">Buy online</string>
     <string name="search">Search</string>
 
+    <!--  Text description for each activity  -->
+    <string name="library_description"> Description of music library activity</string>
+    <string name="now_playing_description"> Description of Now playing activity</string>
+    <string name="karooke_description"> Description of Karooke activity</string>
+    <string name="radiofm_description"> Description of Radio FM activity</string>
+    <string name="detail_info_description"> Description of Detail info activity</string>
+    <string name="buy_online_description"> Description of Buy online activity</string>
+    <string name="search_description"> Description of Search activity</string>
+
 </resources>
