@@ -22,5 +22,16 @@ public class KarookeActivity extends AppCompatActivity {
                 startActivity(gotoHome);
             }
         });
+
+        TextView detailInfo = findViewById(R.id.textView3);
+        detailInfo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoDetailInfo = new Intent(v.getContext(), DetailInfoActivity.class);
+                startActivity(gotoDetailInfo);
+            }
+        });
+
+
     }
 }

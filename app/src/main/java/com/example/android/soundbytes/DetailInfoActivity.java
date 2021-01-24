@@ -22,5 +22,15 @@ public class DetailInfoActivity extends AppCompatActivity {
                 startActivity(gotoHome);
             }
         });
+
+        TextView buyOnLine = findViewById(R.id.textView3);
+        buyOnLine.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoBuyOnline = new Intent(v.getContext(), BuyOnlineActivity.class);
+                startActivity(gotoBuyOnline);
+            }
+        });
+
     }
 }

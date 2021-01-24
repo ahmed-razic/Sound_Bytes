@@ -22,5 +22,24 @@ public class MusicLibraryActivity extends AppCompatActivity {
                 startActivity(gotoHome);
             }
         });
+
+
+        TextView search = findViewById(R.id.textView3);
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoSearch = new Intent(v.getContext(), SearchActivity.class);
+                startActivity(gotoSearch);
+            }
+        });
+
+        TextView nowPlaying = findViewById(R.id.textView4);
+        nowPlaying.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent gotoNowPlaying = new Intent(v.getContext(), NowPlayingActivity.class);
+                startActivity(gotoNowPlaying);
+            }
+        });
     }
 }
