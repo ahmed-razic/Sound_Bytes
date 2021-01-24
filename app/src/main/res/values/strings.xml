@@ -17,7 +17,7 @@
     <string name="karooke_description"> Description of Karooke activity</string>
     <string name="radiofm_description"> Description of Radio FM activity</string>
     <string name="detail_info_description"> Description of Detail info activity</string>
-    <string name="buy_online_description"> Description of Buy online activity</string>
+    <string name="buy_online_description"> Description of Buy online activity <br/> https://developers.google.com/pay/api/android/guides/tutorial</string>
     <string name="search_description"> Description of Search activity</string>
 
 </resources>
